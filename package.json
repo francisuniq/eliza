@@ -6,7 +6,10 @@
   "scripts": {
     "test": "node test-plugin.js",
     "build": "tsc",
-    "start": "node dist/sei-nft-plugin.js"
+    "start": "node dist/sei-nft-plugin.js",
+    "deploy": "node deploy-contract.js",
+    "deploy:testnet": "SEI_CHAIN_ID=atlantic-2 node deploy-contract.js",
+    "deploy:mainnet": "SEI_CHAIN_ID=pacific-1 node deploy-contract.js"
   },
   "dependencies": {
     "@elizaos/core": "^1.0.0",
