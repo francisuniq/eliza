@@ -1,0 +1,43 @@
+{
+  "name": "sei-nft-plugin",
+  "version": "1.0.0",
+  "description": "Complete SEI blockchain NFT plugin with CosmWasm CW721 contracts, IPFS metadata storage, and Magic Eden marketplace integration",
+  "main": "sei-nft-plugin.ts",
+  "scripts": {
+    "test": "node test-plugin.js",
+    "build": "tsc",
+    "start": "node dist/sei-nft-plugin.js"
+  },
+  "dependencies": {
+    "@elizaos/core": "^1.0.0",
+    "@cosmjs/cosmwasm-stargate": "^0.32.2",
+    "@cosmjs/proto-signing": "^0.32.2",
+    "@cosmjs/crypto": "^0.32.2",
+    "@cosmjs/stargate": "^0.32.2",
+    "axios": "^1.6.0",
+    "pinata": "^1.0.0",
+    "form-data": "^4.0.0",
+    "big.js": "^6.2.1",
+    "bech32": "^2.0.0",
+    "node-fetch": "^3.3.2",
+    "mime-types": "^2.1.35",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/mime-types": "^2.1.4",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "sei",
+    "nft",
+    "blockchain",
+    "cosmwasm",
+    "cw721",
+    "ipfs",
+    "magic-eden",
+    "marketplace"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
